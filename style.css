@@ -1,0 +1,456 @@
+.image{
+    width: 33.3%;
+}
+img{
+    max-width: 100%;
+}
+.menu-bar{
+    margin-left: 135px;
+}
+.email-sec{
+    margin-left: 200px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+.num-sec{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+.top-header{
+    padding: 10px 0;
+    background: rgb(151, 226, 255);
+}
+.logo-img{
+    height: 28px;
+    margin-left: 15px;
+}
+.menu-div{
+    padding: 15px 0;
+}
+.searc-sec{
+    margin-right: 17px;
+}
+.main-div{
+    margin: auto;
+    max-width: 1008px;
+}
+.banner-sec{
+    background: url(./cg.png);
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.banner-sec::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .50);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.text{
+    margin-left: 62px;
+    margin-top: -13px;
+}
+.banner-sec h4 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: 2px;  
+    margin-bottom: 20px;
+}
+.banner-sec h1 {
+    color: #fff;
+    font-size: 58px;
+    letter-spacing: 2px;
+    font-family: 'Acme', sans-serif;
+
+}
+.banner-sec p {
+    color: #fff;
+    word-spacing: 2px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 31px;
+    font-size: 18px;
+}
+.banner-sec button {
+    background: rgb(119, 228, 255);
+    color: rgb(145, 145, 145);
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    border-radius: 0;
+    padding: 5px 28px;
+}
+.only-text {
+    padding: 70px 0;
+}
+.only-design h5 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+}
+.only-design h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.only-design p {
+    font-family: 'Roboto';
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: 300;
+    margin-top: 23px;
+    margin-bottom: 37px;
+    font-size: 16px;
+    
+}
+.only-design button {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 40px;
+}
+.photo3{
+    background: rgb(252, 251, 251);
+    padding: 60px 0;
+}
+.img-text{
+    padding: 25px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+}
+.img-text h1{
+    padding-bottom: 7px;
+}
+.secondimg {
+    height: 444px;
+    width: 295px;
+}
+.thirdimg {
+    width: 295px;
+    height: 444px;
+}
+.menuitem{
+    padding: 80px 0;
+    background: #000;
+    color: #fff;
+}
+.menu-txt h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 58px;
+    word-spacing: 7px;
+}
+.menu-txt p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 2;
+}
+.our-features{
+    background: #000;
+}
+.leader {
+    font-size: 50px;
+    margin-left: 45px;
+    margin-top: 8px;
+    color: #fff;
+}
+.crd-bg{
+    background: #000;
+}
+.crs0txt{
+    background: #000;
+}
+.crs0txt h6 {
+    color: #fff;
+    letter-spacing: 1px;
+}
+.crs0txt p {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.slider h5 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+.slider p {
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: #fff;
+    font-size: 19px;
+    font-weight: 200;
+    padding-bottom: 160px;
+}
+.slider-img{
+    position: relative;
+}
+.slider-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .60);
+    height: 100%;
+    width: 100%;
+}
+.our-features{
+    padding-bottom: 50px;
+}
+.two-side-text{
+    padding: 87px 0;
+}
+.pricing-one h1 {
+    font-size: 58px;
+}
+.pricing-one span{
+    font-weight: 300;
+}
+.pricing-one h2 {
+    margin-bottom: 22px;
+}
+.pricing-one p {
+    margin-bottom: 16px;
+}
+.pricing-one button{
+    background: transparent;
+    color: black;
+    border: 2px solid #fff;
+}
+.photo-sec{
+    background: #f5f4f4;
+    padding: 60px 0;
+}
+.img-mrgn{
+    margin-bottom: 20px;
+}
+.img-hover {
+    overflow: hidden;
+    transform: scale(1);
+    transition: .3s;
+}
+.img-hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image-hover{
+    transform: rotate(0deg) scale(1);
+    transition: .3s;
+    overflow: hidden;
+}
+.image-hover:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(30deg);
+    overflow: hidden;
+}
+.photo-hover{
+    transform: skew(0deg);
+    transition: .4s;
+    overflow: hidden;
+}
+.photo-hover:hover{
+    transform: skew(30deg);
+    overflow: hidden;
+}
+.photo-text-hover{
+    position: relative;
+    transition: .4s;
+    overflow: hidden;
+}
+.photo-text-hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 11px;
+    height: 100%;
+    width: 93%;
+    background: rgba(238, 151, 151, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.this{
+    position: absolute;
+    top: 46px;
+    left: 72px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.photo-text-hover:hover::before{
+    visibility: visible;
+    opacity: 1;
+    transition: .4s;
+    cursor: pointer;
+}
+.photo-text-hover:hover .this{
+    visibility: visible;
+    opacity: 1;
+    transition: .4s;
+    cursor: pointer;
+}
+.photo-y{
+    transform: rotateY(0deg);
+    transition: .8s;
+}
+.photo-y:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+.photo-tex-hover{
+    position: relative;
+    transition: .4s;
+}
+.photo-tex-hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 11px;
+    height: 100%;
+    width: 93%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.this1{
+    position: absolute;
+    top: 69px;
+    left: -3px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.photo-tex-hover:hover::before{
+    visibility: visible;
+    opacity: 1;
+    transition: .4s;
+    cursor: pointer;
+}
+.photo-tex-hover:hover .this1{
+    visibility: visible;
+    opacity: 1;
+    transition: .4s;
+    cursor: pointer;
+}
+.foot{
+    background: #000;
+}
+.foot-text{
+    padding-bottom: 60px;
+}
+.foot-text h3 {
+    color: #808080;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 37px;
+    margin-top: 73px;
+    margin-left: -117px;
+}
+.il {
+    margin-left: -144px;
+}
+.foot-text h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 24px;
+    line-height: 29px;
+    margin-left: -24px;
+}
+.foot-text h4 {
+    color: #808080;
+    margin-left: -179px;
+    font-weight: 500;
+    margin-top: 55px;
+    margin-bottom: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 29px;
+    margin-left: -161px;
+}
+.li {
+    font-size: 27px;
+    margin-left: -113px;
+}
+.li i {
+
+    color: #808080;
+    margin-left: 6px;
+}
+.twit {
+    background: #ffffff;
+    color: #000 !important;
+    border-radius: 50%;
+    padding: 2px 4px;
+}
+.fb{
+    background: #ffffff;
+    color: #000 !important;
+    border-radius: 50%;
+    padding: 3px 9px;
+    text-align: center;
+}
+.pin{
+    background: #ffffff;
+    color: #000 !important;
+    border-radius: 50%;
+    padding: 3px 6px;
+    text-align: center;
+}
+.gg{
+    font-size: 36px;
+    color: #fff !important;
+}
+
+.foot-text h6 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: -141px;
+    margin-top: 28px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+.form-sec{
+    margin-left: -73px;
+    padding: 60px 0;
+}
+.cntct {
+    margin-left: 0;
+    margin-top: 11px;
+    margin-bottom: 25px;
+}
+.sbmtbtn {
+    background: #fff;
+    font-family: 'robot', sans-serif;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 4px 17px;
+    margin-left: -376px;
+}
+.pointer{
+    cursor: pointer;
+}
+.foo_ter{
+    padding: 12px 0;
+    background: #b8b5b5;
+}
+.foo_ter p{
+    margin-top: 10px;
+}
